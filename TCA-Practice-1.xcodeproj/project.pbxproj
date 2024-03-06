@@ -12,6 +12,7 @@
 		BD1E4B1E2B9757CD00CBB709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1E4B1D2B9757CD00CBB709 /* Assets.xcassets */; };
 		BD1E4B212B9757CD00CBB709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1E4B202B9757CD00CBB709 /* Preview Assets.xcassets */; };
 		BD1E4B2B2B97594200CBB709 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E4B2A2B97594200CBB709 /* CounterView.swift */; };
+		BD98F9B42B9809180065A5A1 /* TwoCounters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98F9B32B9809180065A5A1 /* TwoCounters.swift */; };
 		BDF7A7D82B975BFB0067823D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = BDF7A7D72B975BFB0067823D /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		BD1E4B1D2B9757CD00CBB709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1E4B202B9757CD00CBB709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD1E4B2A2B97594200CBB709 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		BD98F9B32B9809180065A5A1 /* TwoCounters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCounters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				BD1E4B2A2B97594200CBB709 /* CounterView.swift */,
+				BD98F9B32B9809180065A5A1 /* TwoCounters.swift */,
 			);
 			path = 01;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1E4B1C2B9757CA00CBB709 /* ContentView.swift in Sources */,
+				BD98F9B42B9809180065A5A1 /* TwoCounters.swift in Sources */,
 				BD1E4B1A2B9757CA00CBB709 /* TCA_Practice_1App.swift in Sources */,
 				BD1E4B2B2B97594200CBB709 /* CounterView.swift in Sources */,
 			);
