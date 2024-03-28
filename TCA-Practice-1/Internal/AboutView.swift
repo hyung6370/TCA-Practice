@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct AboutView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+  let readMe: String
 
-#Preview {
-    AboutView()
+  var body: some View {
+    DisclosureGroup("About this case study") {
+        Text(self.readMe)
+    }
+  }
 }
