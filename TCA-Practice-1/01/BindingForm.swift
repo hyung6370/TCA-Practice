@@ -30,10 +30,10 @@ struct BindingForm {
     }
     enum Action: BindableAction {
         case binding(BindingAction<State>)
-        case resetButtonTapped
+        case resetButtonTapped  // 폼을 초기 상태로 리셋
     }
-    var body: some Reducer<State, Action> {
-        BindingReducer()
+    var body: some Reducer<State, Action> { // 리듀서는 액션에 따라 상태를 어떻게 변경할지 정의한다.
+        BindingReducer() // 자동으로 바인딩 액션을 상태에 적용
         Reduce { state, action in
             switch action {
             case .binding(\.stepCount):
@@ -78,7 +78,7 @@ struct BindingFormView: View {
             .disabled(store.toggleIsOn)
             
             HStack {
-                Text("Slider value: \(store.sliderValue)")
+                Text("Slider value: \(Int(store.sliderValue))")
                 
                 Slider(value: $store.sliderValue, in: 0...Double(store.stepCount))
                     .tint(.accentColor)
@@ -95,6 +95,7 @@ struct BindingFormView: View {
     }
 }
 
+// 텍스트필드에 입력된 텍스트를 교대로 대소문자로 변환하여 보여준다
 private func alternate(_ string: String) -> String {
     string
         .enumerated()
