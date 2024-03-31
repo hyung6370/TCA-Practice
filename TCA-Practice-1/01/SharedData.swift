@@ -145,6 +145,9 @@ struct ProfileTabView: View {
     }
 }
 
+// 앱의 전체 상태를 나타낸다.
+// 여기에는 counter와 profile 탭의 상태가 포함되어 있다.
+// 이 구조체는 각 탭의 상태 변경사항을 다른 탭으로 전파하는 로직을 포함한다.
 @Reducer
 struct SharedState {
     enum Tab { case counter, profile }
@@ -219,6 +222,7 @@ struct SharedStateView: View {
     }
 }
 
+// 계산된 통계를 추적하는 구조체
 struct Stats: Equatable {
     private(set) var count = 0
     private(set) var maxCount = 0
