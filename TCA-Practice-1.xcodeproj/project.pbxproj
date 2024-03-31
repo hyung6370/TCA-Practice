@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0D59442BB93BE1009E0F67 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D59432BB93BE1009E0F67 /* SharedData.swift */; };
 		BD1E4B1A2B9757CA00CBB709 /* TCA_Practice_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E4B192B9757CA00CBB709 /* TCA_Practice_1App.swift */; };
 		BD1E4B1C2B9757CA00CBB709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E4B1B2B9757CA00CBB709 /* ContentView.swift */; };
 		BD1E4B1E2B9757CD00CBB709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1E4B1D2B9757CD00CBB709 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0D59432BB93BE1009E0F67 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
 		BD1E4B162B9757CA00CBB709 /* TCA-Practice-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-Practice-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1E4B192B9757CA00CBB709 /* TCA_Practice_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_Practice_1App.swift; sourceTree = "<group>"; };
 		BD1E4B1B2B9757CA00CBB709 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				BD98F9B52B98122A0065A5A1 /* BindingBasic.swift */,
 				BDEA789B2BB5B3D300D7D6BD /* BindingForm.swift */,
 				BDE58A692BB68FD700A01DC6 /* OptionalState.swift */,
+				BD0D59432BB93BE1009E0F67 /* SharedData.swift */,
 			);
 			path = 01;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				BD1E4B1C2B9757CA00CBB709 /* ContentView.swift in Sources */,
 				BD98F9B42B9809180065A5A1 /* TwoCounters.swift in Sources */,
 				BD1E4B1A2B9757CA00CBB709 /* TCA_Practice_1App.swift in Sources */,
+				BD0D59442BB93BE1009E0F67 /* SharedData.swift in Sources */,
 				BDAA260C2B9835790024A4DF /* AboutView.swift in Sources */,
 				BD1E4B2B2B97594200CBB709 /* CounterView.swift in Sources */,
 				BDEA789E2BB5BAE700D7D6BD /* resignFirstResponder.swift in Sources */,
